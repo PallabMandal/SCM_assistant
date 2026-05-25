@@ -216,75 +216,102 @@ These changes reduced hallucinations and improved response accuracy.
 
 ---
 
-# Sample Questions
+## Q1. Which Tier-3 suppliers have an active disruption flag, and what response level applies per policy?
 
-## Q1
+### Answer
 
-```txt
-What happens if compliance score falls below 60?
-```
+11 Tier-3 suppliers:
 
-Expected output:
+- Dravex Components India
+- Plataforma Metales SA
+- Maghreb Castworks
+- Helios Pack Greece
+- Cerromax Mineria
+- Orinoco Pack SAPI
+- Quetzal Textiles
+- Sibertek Molding
+- Archipelago PCB Corp
+- Varna Electronics EAD
+- Deltaforge Vietnam
 
-- Supplier Watch List (SWL)
-- New purchase orders limited to 20% of prior quarter volume
-
----
-
-## Q2
-
-```txt
-Does SUP-005 qualify for Tier-1 rebate?
-```
-
-Expected reasoning:
-
-- OTD ≥93%
-- Defect <0.5%
-- Sustainability ≥85
-
-Then determine eligibility.
+All are High Risk with an active flag → Level 3 Activate per Policy §9 (CPO escalation + alternate supplier at minimum 40% volume).
 
 ---
 
-## Q3
+## Q2. Which suppliers qualify for the annual Volume Rebate Program and how many are there?
 
-```txt
-Which suppliers have compliance below 60?
-```
+### Answer
 
-Expected output:
+19 suppliers qualify:
 
-List supplier IDs and explain SWL implications.
+- Borealis Composites
+- Crestline Chemical Supply
+- Fenwick Alloy Solutions
+- Hanguk Circuit Works
+- Hokkaido Alloy Tech
+- Krauss-Polymex GmbH
+- Lakeshore Components
+- Lumivex Semiconductor NL
+- Maplewood Polymer Corp
+- Norbec Alloy Works
+- Nordloom Finland Oy
+- Orrentek Precision Mfg
+- Ostwind Composites AG
+- PrecisionForge Taiyuan
+- Solveig Eco Packaging
+- Straits Packaging Hub
+- Tasman Circuit Boards
+- Toreval Electronics
+- Valdoro Special Alloys
+
+Criteria (Policy §4.2):
+
+- Tier-1
+- OTD ≥ 93%
+- Defect < 0.5%
+- Sustainability Score ≥ 85
 
 ---
 
-## Q4
+## Q3. Which region has the highest total PO value, and does it breach the concentration limit?
 
-```txt
-Which suppliers are near ELTRP boundaries?
-```
+### Answer
 
-Expected output:
+EMEA at $193,987,179.91 — approximately 48.5% of total spend ($399,563,494.10).
 
-- SUP-005
-- SUP-012
-- SUP-015
-- SUP-023
+This breaches the 45% regional concentration cap (Policy §5.3), requiring a Diversification Plan within 60 days.
 
 ---
 
-## Q5
+## Q4. Which suppliers are on Supplier Watch List (SWL) status and what does it restrict?
 
-```txt
-What certifications are required for electronic component suppliers?
-```
+### Answer
 
-Expected output:
+11 suppliers (Compliance Score < 60):
 
-- ISO 9001
-- RoHS Compliance
-- AEC-Q100 recommendation where applicable
+- Deltaforge Vietnam
+- Maghreb Castworks
+- Helios Pack Greece
+- Cerromax Mineria
+- Orinoco Pack SAPI
+- Varna Electronics EAD
+- Quetzal Textiles
+- Plataforma Metales SA
+- Archipelago PCB Corp
+- Dravex Components India
+- Sibertek Molding
+
+SWL restricts new PO issuance to 20% of prior quarter volume (Policy §3.4).
+
+---
+
+## Q5. Which product category has the highest average defect rate and does it exceed the Tier-2 limit?
+
+### Answer
+
+Mechanical Components — average 2.12% across 360 POs.
+
+Below the Tier-2 ceiling of 2.50% (Policy §3.2), so no breach — but approaching the limit.
 
 ---
 
