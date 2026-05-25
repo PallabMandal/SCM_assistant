@@ -85,19 +85,37 @@ Configured:
 
 ---
 
-# Chunk Configuration
+# Chunk Configurations Tried
+
+## Configuration A
 
 | Setting | Value |
 |---|---|
 | Chunk Size | 1000 |
-| Chunk Overlap | 100 |
+| Chunk Overlap | 200 |
 
-Results:
+### Results
 
 | File | Chunks |
 |---|---|
 | PDF | 19 |
 | CSV | 2000 |
+
+---
+
+## Configuration B
+
+| Setting | Value |
+|---|---|
+| Chunk Size | 500 |
+| Chunk Overlap | 100 |
+
+### Results
+
+| File | Chunks |
+|---|---|
+| PDF | 35 |
+| CSV | 4000 |
 
 ---
 
