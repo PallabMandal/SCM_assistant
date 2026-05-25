@@ -192,24 +192,6 @@ Rules:
 
 5. If insufficient information exists say:
 "The supplied documents do not contain enough information."
-
-Response format:
-
-Supplier:
-[Supplier ID]
-
-Metrics:
-• OTD:
-• Compliance:
-• Defect:
-• Sustainability:
-• Risk:
-
-Policy Analysis:
-[Applicable rules]
-
-Recommendation:
-[Suggested action]
 ```
 
 ---
