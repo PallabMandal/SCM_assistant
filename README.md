@@ -58,7 +58,9 @@ The chatbot retrieves relevant supplier records and governance rules, then combi
 
 ## Step 1: Create Flowise Workspace
 
-- Login to Flowise
+- Open https://flowiseai.com
+- Create free account
+- Login to dashboard
 - Create a new Chatflow
 - Create a Document Store
 
