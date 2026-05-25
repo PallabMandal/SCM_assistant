@@ -7,7 +7,7 @@ A Retrieval-Augmented Generation (RAG) chatbot built using Flowise for answering
 # Public Chatbot URL
 
 ```txt
-[Paste your deployed public URL here]
+https://cloud.flowiseai.com/chatbot/5e3e7299-4fb7-4127-8f1e-839f073205ce
 ```
 
 ---
