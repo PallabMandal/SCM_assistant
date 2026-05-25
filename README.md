@@ -87,7 +87,7 @@ Configured:
 
 # Chunk Configurations Tried
 
-## Configuration A
+## Configuration 1
 
 | Setting | Value |
 |---|---|
@@ -103,7 +103,7 @@ Configured:
 
 ---
 
-## Configuration B
+## Configuration 2
 
 | Setting | Value |
 |---|---|
